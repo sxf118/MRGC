@@ -7,6 +7,6 @@ MRGC was developed in MATLAB 2019b
 ## Dataset
 All teh cancer datasets used in the code can be downloaded at http://acgt.cs.tau.ac.il/multi_omic_benchmark/download.html.
 ## Parameters
-There are three parameters in our method, i.e., 'alpha', 'beta', and the dictionary size 'base'. The default value is 0.01, 0.001 and 10, repectively. Users can change their value in "demo.m" for better performance.
+There are three parameters in our method, i.e., 'alpha', 'beta', and the dictionary size 'base'. The default value is 0.01, 0.001 and 10, repectively. Users can change their value in 'demo.m' for better performance.
 ## Input and output
-Users can change the input file directory and output file directory by changing the 'dataDir' variable and the 'outDir' variable, respectively.
+Users can change the input file directory and output file directory by changing the 'dataDir' variable and the 'outDir' variable in 'demo.m', respectively.

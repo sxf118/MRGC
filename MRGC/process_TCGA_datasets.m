@@ -1,5 +1,5 @@
 function [U, idx_eg, idx_rc] = process_TCGA_datasets(X, par)
-    U = MRGC(X, par.num_bases, par.alpha, par.beta, par.num_iters);
+    U = MRGC(X, par.num_bases, par.alpha, par.beta, par.num_iters); % X is a cell of matrix, each matrix is n*m, n is the number of samples, m is the number of features, each row is a data point.
     NUMC = 2 : 15;
     [K1, ~, K12, ~] = Estimate_Number_of_Clusters_given_graph(U, NUMC);
     fprintf('The number of clusters estimated by eigen gap : %d\n', K1);

@@ -75,7 +75,6 @@ while t <= num_iters
         end
         S{i}(isnan(S{i}))=0;
 
-        % update B, this patameter c should be noticed
         B{i} = learn_basis(X{i}', S{i}, 1);
         
         % update W

@@ -5,7 +5,7 @@ Our method first learns robust latent representations from the raw omics data to
 ## Environment
 MRGC was developed in MATLAB 2019b
 ## Dataset
-All teh cancer datasets used in the code can be downloaded at http://acgt.cs.tau.ac.il/multi_omic_benchmark/download.html.
+All the cancer datasets used in the code can be downloaded at http://acgt.cs.tau.ac.il/multi_omic_benchmark/download.html.
 ## Parameters
 There are three parameters in our method, i.e., 'alpha', 'beta', and the dictionary size 'base'. The default value is 0.01, 0.001 and 10, repectively. Users can change their value in 'demo.m' for better performance.
 ## Input and output

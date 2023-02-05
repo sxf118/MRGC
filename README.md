@@ -1,6 +1,6 @@
 # MRGC
 
-Multi-view Robust Graph-based clustering for Cancer Subtype Identification
+Multi-view Robust Graph-Based Clustering for Cancer Subtype Identification
 
 ### Method Description
 
@@ -25,3 +25,20 @@ There are three parameters in our method, i.e., 'alpha', 'beta', and the diction
 ### Input and output
 
 Users can change the input file directory and output file directory by changing the 'dataDir' variable and the 'outDir' variable in 'demo.m', respectively.
+
+### Citation
+
+```
+
+@ARTICLE{9685002,
+  author={Shi, Xiaofeng and Liang, Cheng and Wang, Hong},
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics}, 
+  title={Multiview Robust Graph-Based Clustering for Cancer Subtype Identification}, 
+  year={2023},
+  volume={20},
+  number={1},
+  pages={544-556},
+  doi={10.1109/TCBB.2022.3143897}
+}
+
+```

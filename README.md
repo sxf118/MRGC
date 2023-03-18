@@ -1,6 +1,6 @@
 # MRGC
 
-Multi-view Robust Graph-Based Clustering for Cancer Subtype Identification
+Multiview Robust Graph-Based Clustering for Cancer Subtype Identification
 
 ### Method Description
 

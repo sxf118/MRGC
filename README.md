@@ -12,7 +12,7 @@ MRGC was developed in MATLAB 2019b
 
 ### Usage
 
-We provided a demo for users. To run this demo, please load the script 'demo.m' into your MATLAB programming environment and click 'run'.
+We provided a demo for users. To run this demo, please load the script `demo.m` into your MATLAB programming environment and click `run`.
 
 ### Dataset
 
@@ -20,11 +20,11 @@ All the cancer datasets used can be downloaded at http://acgt.cs.tau.ac.il/multi
 
 ### Parameters
 
-There are three parameters in our method, i.e., 'alpha', 'beta', and the dictionary size 'base'. The default value is 0.01, 0.001 and 10, repectively. Users can change their value in 'demo.m' .
+There are three parameters in our method, i.e., `alpha`, `beta`, and the dictionary size `base`. The default value is 0.01, 0.001 and 10, repectively. Users can change their value in `demo.m`.
 
 ### Input and output
 
-Users can change the input file directory and output file directory by changing the 'dataDir' variable and the 'outDir' variable in 'demo.m', respectively.
+Users can change the input file directory and output file directory by changing the `dataDir` variable and the `outDir` variable in `demo.m`, respectively.
 
 ### Citation
 
